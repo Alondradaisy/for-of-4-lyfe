@@ -2,10 +2,90 @@
  * YOUR CODE HERE *
  ******************/
 
+function addAll(numbers) {
+  const sum = 0; 
+  for (const number of numbers) {
+    sum += number;
+  }
+  return sum;
+}
 
+function countSpaces(str) {
+  const numSpaces = 0;
+  for (const char of str) {
+    if (char === ' ') {
+      numSpaces = numSpaces + 1;
+    }
+  }
+  return sum;
+}
 
+fucntion countTrues(booleans) {
+  const numTrues = 0;
+  for (const boolean of booleans) {
+    if (boolean === true) { // we can also write it like this: if (boolean)
+      numTrues += numTrues;
+    }
+  }
+}
 
+//makeFriendly('this is a short paragraph')
+function makeFriendly(str) {
+  const friendlyStr = ''; 
+  for (const char of str) {
+    if (char === '.') {
+      friendlyStr = friendlyStr + "!";
+    }else {
+      friendlyStr += friendlyStr('.', '!');
+    }
+  }
+  return friendlyStr;
+}
 
+function cubeAll(numbers) {
+  let output = [];
+  for (const number of numbers) {
+    const cubed = number * number * number;
+    output.push(cubed);
+  }
+  return output;
+}
+
+function addNoises(strs) {
+  let output [];
+  for (const animalName of strs) {
+    // dog noise
+    if (animalName === 'Fido' || animalName === 'Rolph' ||animalName === 'Maisied') {
+      outputs.push(animalName + ' says \ WOOF'\!'')
+
+}
+// cat noises
+if (animalName === 'Garfield' || animalName === 'Heathcliff') {
+  output.push(animalName + '' says \'Meow!'\'')
+}
+
+// dino noises
+if (animalName === 'Barnie' || animalName === 'Shark Tooth') {
+  output.push(animalName + 'says \'ROWR.'\'')
+  }
+}
+
+function womenOnly(strs) {
+  const output = [];
+  for (const person of strs) {
+    const lastChar = person[person.length -1];
+    if (lastChar === "F") {
+      output,push(person);
+    }
+    return output;
+  }
+}
+function integersOnly(numbers) {
+  const output = [];
+  for (const numbers of numbers) {
+    
+  }
+}
 
 
 /*********************************
